@@ -1,9 +1,9 @@
 # Big Data Analytics Intern - Kimia Farma Project
 
-Repository ini berisi query BigQuery yang digunakan untuk menganalisis kinerja bisnis Kimia Farma dari tahun 2020 hingga 2023.
+Repository ini berisi query SQL untuk menganalisis transaksi dan kinerja bisnis Kimia Farma dari tahun 2020 hingga 2023 menggunakan BigQuery. Proyek ini menggabungkan data dari beberapa tabel untuk menganalisis berbagai metrik terkait transaksi, cabang, dan produk.
 
 ## 🔍 Deskripsi Proyek
-Sebagai bagian dari proyek ini, dataset berikut telah diimpor ke dalam BigQuery untuk dianalisis:
+Proyek ini menggunakan dataset yang mencakup data transaksi, cabang, dan produk dari Kimia Farma. Tujuan analisis ini adalah untuk menghitung laba bersih dan menganalisis penilaian cabang dan transaksi berdasarkan harga dan diskon produk. Sebagai bagian dari proyek ini, dataset berikut telah diimpor ke dalam BigQuery untuk dianalisis:
 
 1. **kf_final_transaction.csv** - Data transaksi final.
 2. **kf_inventory.csv** - Data inventaris produk.
@@ -13,7 +13,7 @@ Sebagai bagian dari proyek ini, dataset berikut telah diimpor ke dalam BigQuery 
 Tabel-tabel tersebut telah diimpor ke BigQuery dengan nama tabel yang sesuai tanpa ekstensi `.csv`.
 
 ## 📊 Tabel Analisa
-Setelah data diimpor, dibuat tabel analisa yang mencakup informasi berikut:
+Query ini menggabungkan data dari tabel transaksi (`kf_final_transaction`), cabang (`kf_kantor_cabang`), dan produk (`kf_product`). Hasilnya adalah tabel `analisa_transaksi` yang mencakup informasi berikut:
 
 - **transaction_id** : Kode ID transaksi.
 - **date** : Tanggal transaksi.
