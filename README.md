@@ -1,6 +1,6 @@
 # Big Data Analytics Intern - Kimia Farma Project
 
-Repository ini berisi kumpulan query BigQuery yang digunakan untuk menganalisis kinerja bisnis Kimia Farma dari tahun 2020 hingga 2023.
+Repository ini berisi query BigQuery yang digunakan untuk menganalisis kinerja bisnis Kimia Farma dari tahun 2020 hingga 2023.
 
 ## 🔍 Deskripsi Proyek
 Sebagai bagian dari proyek ini, dataset berikut telah diimpor ke dalam BigQuery untuk dianalisis:
